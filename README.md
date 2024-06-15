@@ -6,7 +6,7 @@
 
 > If you're looking for proxy for helm, maybe you can try [cloudflare-helm-proxy](https://github.com/ciiiii/cloudflare-helm-proxy).
 
-## Deploy
+## Deploy1
 
 1. fork this project
 2. modify the link of the above button to your fork url
