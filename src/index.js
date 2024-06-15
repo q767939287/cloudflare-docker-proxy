@@ -7,16 +7,16 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.darknight.top": dockerHub,
-  "quay.darknight.top": "https://quay.io",
-  "gcr.darknight.top": "https://gcr.io",
-  "k8s-gcr.darknight.top": "https://k8s.gcr.io",
-  "k8s.darknight.top": "https://registry.k8s.io",
-  "ghcr.darknight.top": "https://ghcr.io",
-  "cloudsmith.darknight.top": "https://docker.cloudsmith.io",
+  "docker.dark-night.top": dockerHub,
+  "quay.dark-night.top": "https://quay.io",
+  "gcr.dark-night.top": "https://gcr.io",
+  "k8s-gcr.dark-night.top": "https://k8s.gcr.io",
+  "k8s.dark-night.top": "https://registry.k8s.io",
+  "ghcr.dark-night.top": "https://ghcr.io",
+  "cloudsmith.dark-night.top": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.darknight.top": dockerHub,
+  "docker-staging.dark-night.top": dockerHub,
 };
 
 function routeByHosts(host) {
